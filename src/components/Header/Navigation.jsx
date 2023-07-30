@@ -1,5 +1,3 @@
-import React from "react";
-
 function Navigation({ showMobileNavigation, onToggleShowMobileNavigation }) {
   const btnToggleClassName = showMobileNavigation ? "toggle-btn" : "";
   return (

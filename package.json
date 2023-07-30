@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prettier": "npx prettier --write ./src/**/*.{js,ts,jsx,tsx}"
+    "prettier": "npx prettier --write ./src/**/*.jsx"
   },
   "dependencies": {
     "react": "^18.2.0",

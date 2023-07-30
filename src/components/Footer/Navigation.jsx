@@ -1,5 +1,3 @@
-import React from "react";
-
 function Navigation() {
   return (
     <nav className="hidden md:flex flex-col gap-2" ariia-label="footer">

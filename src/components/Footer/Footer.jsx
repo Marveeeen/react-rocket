@@ -1,4 +1,3 @@
-import React from "react";
 import Address from "./Address";
 import Navigation from "./Navigation";
 import Copyright from "./Copyright";

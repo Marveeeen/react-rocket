@@ -1,4 +1,3 @@
-import React from "react";
 import Section from "../UI/Section";
 import Testimony from "./Testimony";
 import { decodeHTMLEntities } from "../../lib/decodeHTMLEntities";
@@ -17,14 +16,14 @@ const testimonials = [
   {
     author: "Buzz Lightyear",
     message: decodeHTMLEntities(
-      "I knew I not only wanted &#8212; I needed &#8212; Acme's Infinity Rocket for my mission in space. Acme delivered in one day! Nothing says Take me to your leader like Acme's Infinity Rocket!"
+      "I knew I not only wanted &#8212; I needed &#8212; Acme's Infinity Rocket for my mission in space. Acme delivered in one day! Nothing says Take me to your leader like Acme's Infinity Rocket!",
     ),
   },
 ];
 
 function Testimonials() {
   return (
-    <Section title="Testimonials">
+    <Section id="testimonials" title="Testimonials">
       {testimonials.map((testimony) => (
         <Testimony key={testimony.author} testimony={testimony} />
       ))}
