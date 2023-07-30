@@ -1,6 +1,5 @@
 {
   "name": "react-rocket",
-  "homepage": "https://marveeeen.github.io/react-rocket/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "prettier": "npx prettier --write ./src/**/*.jsx",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
