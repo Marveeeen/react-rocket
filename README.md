@@ -8,8 +8,6 @@ React: A popular JavaScript library for building user interfaces.
 
 Tailwind CSS: A utility-first CSS framework that makes styling and customizing components efficient and flexible.
 
-Other dependencies: List any other important libraries or dependencies used in the project.
-
 ## Features
  - Mobile Responsive: The project is optimized to work flawlessly on different mobile devices, ensuring a smooth user experience.
 
